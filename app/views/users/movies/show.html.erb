@@ -1,7 +1,8 @@
+<p><%= button_to "Discover Page", "/discover", method: :get %></p><br>
+
 <h2> <%= "#{@movie.title}" %></h2>
 
-
-<p><%= button_to "Discover Page", "/discover", method: :get %></p><br>
+<img src= <%= "#{@movie.image_api_call}" %> height="200" > <br>
 
 <%= button_to "Create Viewing Party for #{@movie.title}", "/movies/#{@movie.id}/viewing-party/new", method: :get %>
 

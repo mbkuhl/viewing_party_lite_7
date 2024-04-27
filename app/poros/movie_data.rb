@@ -7,7 +7,8 @@ class MovieData
               :summary,
               :credits,
               :reviews,
-              :review_count
+              :review_count,
+              :image_api_call
   def initialize(data)
     @id = data[:details][:id]
     @title = data[:details][:title]
@@ -18,6 +19,7 @@ class MovieData
     @credits = credits_maker(data[:credits])
     @reviews = reviews_maker(data[:reviews])
     @review_count = @reviews.count
+    @image_api_call = MovieService.image_api_call(data[:details][:id])
   end
 
   def genres(details_data)
