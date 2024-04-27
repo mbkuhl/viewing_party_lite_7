@@ -8,6 +8,7 @@ Viewing Party Lite is an application in which users can explore movie options an
 
 ### Context
 
+This project was completed 13 weeks into learning coding. This was a pair project, and the timeline for completion was 5 days. There were a couple of individual challenges tied to this repo completed at a later date including authentication and sessions implementation.
 
 ### Learning Goals
 
