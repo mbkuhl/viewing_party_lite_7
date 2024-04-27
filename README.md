@@ -6,11 +6,24 @@ This is the base repo for the [Viewing Party Lite project](https://backend.turin
 
 Viewing Party Lite is an application in which users can explore movie options and create a viewing party event for themselves and other users of the application.
 
+### Context
+
+
+### Learning Goals
+
+- Consume External APIs
+
+- Display Information from External API's through a basic front end
+
+- Use a facade and "Plain old ruby objects" to move logic out of controllers.
+
 ## Setup
 
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Setup the database: `rails db:create`
+4. Perform databse migrations: `rails:db:migrate`
+5. Run on local: `rails s`, then open localhost `http://localhost:3000/`
 
 
 ## Versions
